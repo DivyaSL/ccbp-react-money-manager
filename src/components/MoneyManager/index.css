@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.bg {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  width: 760px;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin-bottom: 28px;
+}
+.header-heading {
+  font-family: Roboto;
+  font-size: 34px;
+  color: #475569;
+}
+.header-description {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #475569;
+}
+.header-description-span {
+  color: #0b69ff;
+}
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 42px;
+}
+.transaction-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.add-transaction-form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 26px 40px;
+  width: 300px;
+}
+.form-heading {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 20px;
+}
+.input-label {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7e858e;
+  margin-bottom: 8px;
+}
+.input-box {
+  border: 1px solid #d7dfe9;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 11px;
+  margin-bottom: 16px;
+}
+.add-transaction-btn {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background-color: #0b69ff;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 10px 22px;
+  align-self: flex-start;
+}
+.transaction-history-table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 26px 40px;
+  list-style-type: none;
+  margin-top: 0px;
+}
+.table-heading {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 20px;
+}
+.table-row {
+  display: flex;
+  border: 1px solid #d7dfe9;
+  padding: 10px 20px;
+}
+.table-header-cell {
+  width: 93px;
+  margin: 0px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+}

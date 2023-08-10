@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.balance-bg {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+  width: 230px;
+}
+.income-bg {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+  width: 230px;
+}
+.expenses-bg {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  width: 230px;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.image {
+  width: 60px;
+}
+
+.details-description {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.amount {
+  font-family: Roboto;
+  font-size: 23px;
+  color: #475569;
+  margin: 0px;
+}

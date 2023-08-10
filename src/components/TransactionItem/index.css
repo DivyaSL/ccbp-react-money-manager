@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.table-row {
+  display: flex;
+  border: 1px solid #d7dfe9;
+  padding: 10px 20px;
+}
+.table-cell {
+  width: 93px;
+  margin: 0px;
+  font-family: Roboto;
+  font-size: 13px;
+  color: #475569;
+}
+.delete-cell {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-icon {
+  width: 18px;
+}
